@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap" rel="stylesheet">
     <title>My Personal Portfolio</title>
   </head>
 
@@ -15,7 +16,7 @@
       <nav id="navbar">
         <ul>
           <li><a class="navlink" href="#welcome-section">Top</a></li>
-          <li><a class="navlink" href="#introduction">Introduction</a></li>
+          <li><a class="navlink" href="#about">About</a></li>
           <li><a class="navlink" href="#experiences">Experiences</a></li>
           <li><a class="navlink" href="#skills">Skills</a></li>
           <li><a class="navlink" href="#projects">Projects</a></li>
@@ -26,31 +27,39 @@
 
     <main>
       <section id="welcome-section">
-        <h1>Hello, World!</h1>
-      </section>
+        <h1>Hello, world! I'm <span class="orange">Zati</span></h1>
+        <h5 class="italic normal">An entry level <span class="orange">Full-Stack Developer</span> / <span>Software Engineer</span></h5>
+        <button type="button" id="download-cv">Download CV</button>
+      </section> <hr>
 
-      <section id="introduction" class="section-divider">
-        <header class="section-header">
-          <h2>Introduction</h2>
-        </header>
+      <div id="about-wrapper">
+        <section id="introduction" class="section-divider">
+        <div id="introduction-wrapper">
+          <header class="section-header">
+            <h2>About Me</h2>
+          </header>
 
-        <div id="profile">
-          <div id="profile-wrapper">
-            <h3>Hi, my name's IM!</h3>
-            <p class="subtitle">Check out my <a id="profile-link" href="https://www.freecodecamp.org/ryou_codes" target="_blank">profile</a> on freeCodeCamp.</p><br>
-            <div id="summary">
-              <p>I am a freshly graduated student, who is eager and willing to learn and
-challenge myself on any given task or work that is given.</p><br>
-              <p>I have experienced working individually and in a team. My academic
-background in Computer Science allows myself to be involved in different
-areas such as web and game development, databases, computer security
-as well as researching state-of-the art applications e.g. AI.</p>
+          <div id="profile">
+            <div id="profile-wrapper">
+              <p class="subtitle">Check out my <a id="profile-link" href="https://www.freecodecamp.org/ryou_codes" target="_blank">profile</a> on freeCodeCamp.</p><br>
+              <div id="summary">
+                <p>I am a freshly graduated student, who is eager and willing to learn and
+  challenge myself on any given task or work that is given.</p><br>
+                <p>I have experienced working individually and in a team. My academic
+  background in Computer Science allows myself to be involved in different
+  areas such as web and game development, databases, computer security
+  as well as researching state-of-the art applications e.g. AI.</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      </div>
+      
+      <hr>
 
-      <section id="experiences" class="section-divider">
+      <div id="experiences-wrapper">
+        <section id="experiences" class="section-divider">
         <header class="section-header">
           <h2>Experiences</h2>
         </header>
@@ -74,7 +83,8 @@ as well as researching state-of-the art applications e.g. AI.</p>
             </div>
         </div>
       </section>
-
+      </div>
+      
       <section id="skills" class="section-divider">
         <header class="section-header">
           <h2>Skills</h2>
@@ -83,19 +93,17 @@ as well as researching state-of-the art applications e.g. AI.</p>
         <div id="skills-wrapper">
             <h3>Front-End</h3>
             <ul class="icons">
-              <li><img alt="html5 icon" src="https://www.flaticon.com/free-icon/html-5_174854?term=html&page=1&position=2&origin=search&related_id=174854" /></li>
-              <li><img alt="css3 icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291951167311708174/css.png?ex=6701f6c9&is=6700a549&hm=23da39dc1ab7c8628193486ae3e982a618393c81e87ae57ddd9715d1ab022f2e&" /></li>
-              <li><img alt="javascript icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291951167768756307/js.png?ex=6701f6c9&is=6700a549&hm=840f17e66079a5808ebdfbb100440ac71d2de3425adf686ba1db82fea0161733&" /></li>
-              <li><img alt="bootstrap icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291951167093473425/bootstrap4.png?ex=6701f6c9&is=6700a549&hm=45d018b449a2124e6ee66a8fb0c6ce0abcba5114fbe72d583ab5ecb92552472f&" /></li>
+              <li><img alt="html5 icon" src="Assets/html.png" /></li>
+              <li><img alt="css3 icon" src="Assets/css.png" /></li>
+              <li><img alt="javascript icon" src="Assets/js.png" /></li>
             </ul>
             
             <h3>Back-End</h3>
             <ul class="icons">
-              <li><img alt="python icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952641424887839/python.png?ex=6701f829&is=6700a6a9&hm=e70152d8f7c6f967023df28eb58e519eb1ef912c4f1204e4d864236dd42f5dbf&" /></li>
-              <li><img alt="php icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952641144000534/php.png?ex=6701f828&is=6700a6a8&hm=379173fb05799eba7ef13d3b4efbdcd08cd11807cbf7e5d33188e4650f8b1f18&" /></li>
-              <li><img alt="java icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952642112622673/java.png?ex=6701f829&is=6700a6a9&hm=4ea44d0f91f30fef6b0e3e64e948e36c4bae90f0534b5191a4a933082e834e5b&" /></li>
-              <li><img alt="sql icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952641777205330/sql1.png?ex=6701f829&is=6700a6a9&hm=9204f99c73cf53d5a8680e3d7e8fef178c1df90ba829806f52c2cea368e8b2b7&" /></li>
-              <li><image alt="mysql icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952642729447516/mysql.png?ex=6701f829&is=6700a6a9&hm=0f669e786fc05146091e81f48df750e7809dc9b485d0d00208674f5b9a91fddd&" /></li>
+              <li><img alt="python icon" src="Assets/python.png" /></li>
+              <li><img alt="php icon" src="Assets/php.png" /></li>
+              <li><img alt="java icon" src="Assets/java.png" /></li>
+              <li><img alt="sql icon" src="Assets/sql1.png" /></li>
             </ul>
         </div>
       </section>

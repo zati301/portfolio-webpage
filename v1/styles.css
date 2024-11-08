@@ -1,21 +1,29 @@
+:root {
+  --dark-blue: #3D5A80;
+  --mid-blue: #98C1D9;
+  --light-blue: #E0FBFC;
+  --orange: #d46347;
+  --black: #293241;
+
+}
+
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   
-  html {
-    color: #d9d9d9;
-  }
-  
   body {
     font-family: "Noto Sans", sans-serif;
+    color: var(--light-blue);
+    background-color: var(--black);
+    overflow-x: hidden;
   }
   
   #top-header {
     position: fixed;
     top: 0;
-    background-color: #284b63;
+    background-color: var(--orange);
     width: 100vw;
   }
   
@@ -32,6 +40,8 @@
     align-items: center;
     align-content: center;
     line-height: 5vh;
+    font-weight: bold;
+    font-size: medium;
   }
   
   .navlink {
@@ -46,22 +56,46 @@
     border-bottom: 3px solid;
     color: #fff;
   }
-  
-  #welcome-section {
-    margin-top: 130px;
-    margin-bottom: 20px;
-    text-align: center;
-    border: 3px dashed;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  body {
-    background-color: #284b63;
-  }
-  
+
   main {
-    padding: 0 10px;
+    margin-top: 400px;
+  }
+
+  #welcome-section {
+    margin-bottom: 460px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Cairo Play", "sans-serif";
+  }
+
+  .orange {
+    color: var(--orange);
+  }
+
+  .italic {
+    font-style: italic;
+  }
+  
+  .normal {
+    font-weight: 400;
+  }
+
+  #download-cv {
+    margin-top: 30px;
+    padding: 2px 12px;
+    border-radius: 30px;
+    font-family: "Cairo Play", "sans-serif";
+    font-weight: bold;
+  }
+
+  #about-wrapper {
+    background-color: var(--dark-blue);
+    width: 100vw;
+    padding: 360px 0;
+  }
+
+  #experiences-wrapper {
+    padding: 200px 0;
   }
   
   .section-divider {
@@ -73,7 +107,7 @@
     padding: 20px 20px;
   }
   
-  #introduction, #skills {
+  #skills {
     background-color: #d9d9d9;
     color: #000;
     border-radius: 10px 30px 10px 10px;
@@ -248,6 +282,8 @@
     text-align: center;
     font-size: 16px;
   }
+
+  /*
   
   @media only screen and (max-width: 600px) {
     html {
@@ -327,3 +363,5 @@
     }
   
   }
+
+  */

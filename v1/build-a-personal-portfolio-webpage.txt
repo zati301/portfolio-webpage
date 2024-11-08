@@ -1,0 +1,513 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>My Personal Portfolio</title>
+  </head>
+
+  <body>
+    <header id="top-header">
+      <nav id="navbar">
+        <ul>
+          <li><a class="navlink" href="#welcome-section">Top</a></li>
+          <li><a class="navlink" href="#introduction">Introduction</a></li>
+          <li><a class="navlink" href="#experiences">Experiences</a></li>
+          <li><a class="navlink" href="#skills">Skills</a></li>
+          <li><a class="navlink" href="#projects">Projects</a></li>
+          <li><a class="navlink" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="welcome-section">
+        <h1>Hello, World!</h1>
+      </section>
+
+      <section id="introduction" class="section-divider">
+        <header class="section-header">
+          <h2>Introduction</h2>
+        </header>
+
+        <div id="profile">
+          <div id="profile-wrapper">
+            <h3>Hi, my name's Ryou.</h3>
+            <p class="subtitle">Check out my <a id="profile-link" href="https://www.freecodecamp.org/ryou_codes" target="_blank">profile</a> on freeCodeCamp.</p><br>
+            <div id="summary">
+              <p>I am a freshly graduated student, who is eager and willing to learn and
+challenge myself on any given task or work that is given.</p><br>
+              <p>I have experienced working individually and in a team. My academic
+background in Computer Science allows myself to be involved in different
+areas such as web and game development, databases, computer security
+as well as researching state-of-the art applications e.g. AI.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experiences" class="section-divider">
+        <header class="section-header">
+          <h2>Experiences</h2>
+        </header>
+
+        <div class="inner-wrapper">
+          <h3>Education Timeline</h3>
+            <div id="education-wrapper">
+              <p class="span">BSc. of Science in Computer Science <span class="italic bold">2016 - 2019</span></p>
+              <p class="span">MSc. of Science in Computer Science By Research <span class="italic bold">2020 - 2023</span></p>
+            </div>
+        </div>
+
+        <hr><br>
+
+        <div class="inner-wrapper">
+          <h3 id="work-header">Work Timeline</h3>
+            <div id="work-wrapper">
+              <p class="span">No One Studios / Environmental Artist <span class="italic bold">December 2022 – May 2023</span></p>
+              <p class="span">ItsyBytes Company / Internship <span class="italic bold">August 2018 – November 2018</span></p>
+              <p class="span">E-National Government Centre / Internship <span class="italic bold">January 2018 – April 2018</span></p>
+            </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section-divider">
+        <header class="section-header">
+          <h2>Skills</h2>
+        </header>
+
+        <div id="skills-wrapper">
+            <h3>Front-End</h3>
+            <ul class="icons">
+              <li><img alt="html5 icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291951167546331216/html.png?ex=6701f6c9&is=6700a549&hm=e451cc7fa219944ad423df1dd1281fbc1ed6dc8ea1d0e5a71d46291079815fda&" /></li>
+              <li><img alt="css3 icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291951167311708174/css.png?ex=6701f6c9&is=6700a549&hm=23da39dc1ab7c8628193486ae3e982a618393c81e87ae57ddd9715d1ab022f2e&" /></li>
+              <li><img alt="javascript icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291951167768756307/js.png?ex=6701f6c9&is=6700a549&hm=840f17e66079a5808ebdfbb100440ac71d2de3425adf686ba1db82fea0161733&" /></li>
+              <li><img alt="bootstrap icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291951167093473425/bootstrap4.png?ex=6701f6c9&is=6700a549&hm=45d018b449a2124e6ee66a8fb0c6ce0abcba5114fbe72d583ab5ecb92552472f&" /></li>
+            </ul>
+            
+            <h3>Back-End</h3>
+            <ul class="icons">
+              <li><img alt="python icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952641424887839/python.png?ex=6701f829&is=6700a6a9&hm=e70152d8f7c6f967023df28eb58e519eb1ef912c4f1204e4d864236dd42f5dbf&" /></li>
+              <li><img alt="php icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952641144000534/php.png?ex=6701f828&is=6700a6a8&hm=379173fb05799eba7ef13d3b4efbdcd08cd11807cbf7e5d33188e4650f8b1f18&" /></li>
+              <li><img alt="java icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952642112622673/java.png?ex=6701f829&is=6700a6a9&hm=4ea44d0f91f30fef6b0e3e64e948e36c4bae90f0534b5191a4a933082e834e5b&" /></li>
+              <li><img alt="sql icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952641777205330/sql1.png?ex=6701f829&is=6700a6a9&hm=9204f99c73cf53d5a8680e3d7e8fef178c1df90ba829806f52c2cea368e8b2b7&" /></li>
+              <li><image alt="mysql icon" src="https://cdn.discordapp.com/attachments/613706963884179625/1291952642729447516/mysql.png?ex=6701f829&is=6700a6a9&hm=0f669e786fc05146091e81f48df750e7809dc9b485d0d00208674f5b9a91fddd&" /></li>
+            </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <header class="section-header">
+          <h2>Projects</h2>
+        </header>
+
+        <div class="project-tile">
+          <div id="project-one">
+            <div class="project-wrapper">
+              <h3 class="project-title">Survey Form</h3>
+              <p>The first project challenges myself to create a survey form, which collects data from users.</p>
+              <p class="center"><a class="project-link" target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">View Project</a></p>
+              <img class="project-sc" src="https://cdn.discordapp.com/attachments/613706963884179625/1291962521518870599/image.png?ex=6702015c&is=6700afdc&hm=00f6ca57b6363f857df8bfba786a3aff47532d6fc0f22cf0287c38d9795b4f04&" />
+            </div>
+          </div>
+
+          <div id="project-two">
+            <div class="project-wrapper">
+              <h3 class="project-title">Tribute Page</h3>
+              <p>The second project challenges myself to create a tribute page from my choosing.</p>
+              <p class="center"><a class="project-link" target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page">View Project</a></p>
+              <img class="project-sc" src="https://cdn.discordapp.com/attachments/613706963884179625/1291962692369645640/image.png?ex=67020185&is=6700b005&hm=c1b0e8eca38dc8246d21184b79b8ca3fd7c8ab256bae0e2c2d56cd736bc6763f&" />
+            </div>
+          </div>
+
+          <div id="project-three">
+            <div class="project-wrapper">
+              <h3 class="project-title">Technical Documentation Page</h3>
+              <p>The three project challenges myself to create a technical documentation page, as an instruction and guide for a particular topic.</p>
+              <p class="center"><a class="project-link" target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page">View Project</a></p>
+              <img class="project-sc" src="https://cdn.discordapp.com/attachments/613706963884179625/1291966264193056839/image.png?ex=670204d8&is=6700b358&hm=d06f9350aa23d09effbc7d145ed88a43e4bc2d9b76440a54efbd28b52f2e25ca&" />
+            </div>
+          </div>
+
+          <div id="project-four">
+            <div class="project-wrapper">
+              <h3 class="project-title">Product Landing Page</h3>
+              <p>The four project challenges myself to create a product landing page to market a product.</p>
+              <p class="center"><a class="project-link" target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page">View Project</a></p>
+              <img class="project-sc" src="https://cdn.discordapp.com/attachments/613706963884179625/1291962964257144882/image.png?ex=670201c6&is=6700b046&hm=16f60b2361759e1aae3fc56baf83c56437895143ce65bf75e1f4fd58b7183234&" />
+            </div>
+          </div>
+        </div>
+
+        
+      </section>
+
+      <section id="contact">
+        <header class="section-header">
+          <h2>Want to know more?</h2>
+        </header>
+          <div id="contact-wrapper">
+            <h3>Drop me an email or contact me through my social media:</h3>
+            <div id="social-icons-wrapper">
+              <ul class="social-icons">
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
+                <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+              </ul>
+            </div>
+          </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div id="footer-wrapper">
+        <p>All of the information are for testing purposes only.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #d9d9d9;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+#top-header {
+  position: fixed;
+  top: 0;
+  background-color: #284b63;
+  width: 100vw;
+}
+
+#navbar{
+  padding: 10px 40px;
+}
+
+#navbar > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  line-height: 5vh;
+}
+
+.navlink {
+  text-decoration: none;
+  padding: 2px 8px;
+  margin-left: 5px;
+  color: #d9d9d9;
+}
+
+.navlink:hover {
+  text-decoration: none;
+  border-bottom: 3px solid;
+  color: #fff;
+}
+
+#welcome-section {
+  margin-top: 130px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 3px dashed;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body {
+  background-color: #284b63;
+}
+
+main {
+  padding: 0 10px;
+}
+
+.section-divider {
+  margin-bottom: 25px;
+}
+
+#introduction, #experiences, #skills, #projects {
+  font-size: 18px;
+  padding: 20px 20px;
+}
+
+#introduction, #skills {
+  background-color: #d9d9d9;
+  color: #000;
+  border-radius: 10px 30px 10px 10px;
+}
+
+#experiences, #projects {
+  margin-top: -20px;
+}
+
+.section-header h2 {
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+}
+
+#profile-wrapper h3,  #skills-wrapper h3 {
+  color: #3c6e71;
+}
+
+p {
+  letter-spacing: 0.3px;
+  text-align: justify;
+}
+
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+}
+
+.inner-wrapper, .project-wrapper {
+  margin-bottom: 10px;
+}
+
+#education-wrapper, #work-wrapper {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#work-wrapper {
+  padding-bottom: 0px;
+}
+
+#education-wrapper p, #work-wrapper p {
+  margin-bottom: 5px;
+}
+
+#education-wrapper p:last-of-type, #work-wrapper p:last-of-type {
+  margin-bottom: unset;
+}
+
+#profile-link {
+  color: #284b63;
+}
+
+#profile-link:hover {
+  color: #fff;
+}
+
+.project-title {
+  margin-bottom: 10px;
+}
+
+.span {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+}
+
+#work-header {
+  margin-top: -10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.icons {
+  font-size: 30px;
+  list-style-type: none;
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.icons img {
+  min-width: 50px;
+  max-width: 80px;
+  object-fit: contain;
+}
+
+.project-wrapper {
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 10px 10px 6px 6px;
+}
+
+.project-wrapper p {
+  margin-bottom: 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+.project-link {
+  color: #fff;
+}
+
+.project-link:hover {
+  color: #b8e2e4;
+}
+
+.project-sc {
+  display: block;
+  margin: 10px auto; 
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #000000AA; 
+}
+
+#social-icons-wrapper {
+  margin-top: 10px;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#contact-wrapper h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.social-icons li:hover {
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  background-color: #d9d9d9;
+  color: #000;
+  margin-top: 50px;
+}
+
+footer p {
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    min-width: 400px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #welcome-section {
+    margin-top: 130px;
+  }
+}
+
+@media only screen and (min-width: 665px) {
+   #welcome-section {
+    margin-top: 80px;
+  }
+
+  section {
+    max-width: 665px;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .span {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .project-tile {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-wrapper {
+    margin-left: 10px;
+    width: calc(600px / 2);
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+}
+
+@media only screen and (min-width: 800px) {
+  #projects {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .project-wrapper {
+    margin-left: 15px;
+    width: calc( 660px / 2);
+    height: 480px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #projects {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .project-wrapper {
+    margin-left: 15px;
+    width: calc( 800px / 2);
+    height: 480px;
+  }
+
+}
+
+** end of undefined **
+
